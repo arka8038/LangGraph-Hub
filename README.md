@@ -4,9 +4,10 @@ A beginner-friendly repo to learn **LangGraph** through real projects!
 ## Overview  
 This repository is designed to help beginners understand and experiment with **LangGraph**, a framework for building structured AI workflows. It contains step-by-step Jupyter notebooks:  
 
-**1. 1_basic_graph.ipynb** – Learn the fundamentals of LangGraph's graph structure.  
-**2. 2_langgraph_Chatbot.ipynb** – Build an AI chatbot using LangGraph & Groq LLM.  
-**2. 3_langgraph_routing.ipynb** – Mastering LangGraph Tool Routing
+1. **1_basic_graph.ipynb** – Learn the core structure and execution flow of LangGraph.  
+2. **2_langgraph_Chatbot.ipynb** – Build an interactive AI chatbot using LangGraph and Groq LLM.  
+3. **3_langgraph_routing.ipynb** – Implement intelligent tool routing for dynamic AI workflows.
+4. **4_langgraph_custom_tool_agents.ipynb** -  Create modular AI agents with custom tool selection and execution.
 
 ## Setup Instructions  
 
