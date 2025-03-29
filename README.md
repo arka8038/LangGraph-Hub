@@ -33,7 +33,44 @@ pip install -r requirements.txt
    ```bash
    jupyter notebook
    ```
-2. Open the notebook you want to explore and run the cells!  
+2. Open the notebook you want to explore and run the cells!
+
+## **LangGraph Debugging Guide**  
+
+### **📌 How to Debug and Visualize the Graph**  
+
+To see the real flow of the graph in LangGraph, follow these steps:  
+
+1️⃣ **Navigate to the Debugging Folder**  
+```bash
+cd debugging
+```
+
+2️⃣ **Start the LangGraph Dev Server**  
+```bash
+langgraph dev
+```
+
+3️⃣ **Open LangGraph Studio**  
+Once the server starts, open the following link in your browser:  
+🔗 **[LangGraph Studio](https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:2024)**  
+
+This allows you to:  
+✅ **Visualize the execution flow**  
+✅ **Debug nodes step-by-step**  
+✅ **Inspect inputs, outputs, and errors in real-time**  
+
+### **⚠️ Troubleshooting**
+- If `langgraph dev` fails with a missing file error, ensure all required Python files exist inside the `debugging` folder.
+- If the server is slow, try restarting with:  
+  ```bash
+  langgraph dev --reload
+  ```
+- If dependencies are missing, install them inside your Conda environment:  
+  ```bash
+  conda activate llms
+  pip install -r requirements.txt
+  ```
 
 ## Contribute & Learn  
 If this helps you, drop a ⭐ on the repo and let me know what you’d like to learn next!  

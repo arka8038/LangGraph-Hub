@@ -50,3 +50,4 @@ dependencies:
     - feedparser
     - twilio
     - pydub
+    - langgraph-cli[inmem]

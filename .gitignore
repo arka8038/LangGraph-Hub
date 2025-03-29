@@ -1,2 +1,47 @@
-.env
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
 venv/
+env/
+*.env
+
+#langggraph sepcific
+/debugging/.langgraph_api
+
+# Conda environment files
+*.conda
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Environment files
+environment.yml
+requirements.txt
+
+# Miscellaneous
+*.bak
+*.swp
